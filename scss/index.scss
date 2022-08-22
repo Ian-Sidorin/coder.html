@@ -1,0 +1,87 @@
+.container {
+    margin: 0 auto;
+    width: 1024px;
+    text-align: center;
+    li{
+        display: inline-block;
+        margin: 3px;
+        margin-inline: 10px;
+    }
+}
+
+h1 {
+    color: gold;
+    text-align: center;
+    font-size: 50px;
+    background-color: rgba(0, 60, 255, 0.87);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    .item{
+        width: 400px;
+        height: 400px;
+        margin-bottom: 100px;
+        display: inline-block;
+        margin-top: 50px;
+        margin-left: 220px
+    }
+}
+
+
+footer{
+    margin: 20px;
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body  {
+    background-color: rgba(0, 38, 255, 0.336);
+}
+
+.theelectrician{
+    margin-left: 0 auto;
+    margin-right: 150px;
+}
+.kidsplash{
+    margin-left: 20px;
+}
+h3{
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 800px;
+    form{
+        display: inline-block;
+        margin-left: 470px;
+    }
+}
+
+
+
+
+
+.pros{
+    text-align: center;
+    color: green;
+}
+.pross{
+    text-align: center;
+}
+.cons{
+    text-align: center;
+    margin-top: 100px;
+    color: red;
+}
+.conss{
+    text-align: center;
+}
+.grilla{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+    text-align: center;
+    margin-left: 600px;
+    font-size: 20px;
+    grid-column-gap: 25px;
+    display: flex;
+}
+.hover1:hover {
+    background-color: yellow;
+    color: black;
+    transition: all .3s;
+}
